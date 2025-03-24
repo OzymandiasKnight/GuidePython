@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+/*
+.document_link {
+    font-size: 25px;
+    color: var(--ctxt);
+}
+
+.document_link:visited {
+    font-size: 25px;
+    color: var(--cfg);
+}
+*/
+
+:root {
+    --cbg: #22223b;
+    --cbgs: #4a4e69;
+    --ctxt: #f2e9e4;
+    --cfg: #c9ada7;
+    --cfgs: #9a8c98;
+}
+
+html {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #22223b;
+    color: var(--ctxt);
+}
+
+.title {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.deck {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    transition-duration: 0.2s;
+    width: 200px;
+    height: 200px;
+    border: #f2e9e4 solid 5px;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    scale: 1.2;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.card > h3 {
+    position:absolute;
+    border: var(--ctxt) solid 3px;
+    user-select: none;
+}
+
+.card > img {
+    transform: scale(0.5);
+    transform-origin: center;
+}
